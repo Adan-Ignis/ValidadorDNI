@@ -21,7 +21,7 @@ public class Main {
 		if (esValido) {
 			System.out.println("El DNI es correcto");
 		} else {
-			//System.out.println("El DNI es incorrecto");
+			System.out.println("El DNI es incorrecto");
 		}
 	}
 
