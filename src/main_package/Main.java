@@ -6,12 +6,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int number;
+		String number;
 		char letter;
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("Pon el numero de tu DNI: ");
-		number = scanner.nextInt();
+		number = scanner.next();
 		scanner.nextLine(); //Limpiar el bufer (Consume el "\n" remanente)
 		System.out.print("Pon la letra de tu DNI: ");
 		letter = scanner.next().charAt(0);
@@ -21,7 +21,7 @@ public class Main {
 		if (esValido) {
 			System.out.println("El DNI es correcto");
 		} else {
-			System.out.println("El DNI es incorrecto");
+			//System.out.println("El DNI es incorrecto");
 		}
 	}
 
