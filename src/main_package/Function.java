@@ -5,7 +5,7 @@ public class Function {
 	
 	public static boolean esDNIValido (String numberStr, char letter) {
 		if (!numberStr.matches("\\d{8}")) {
-			System.out.println("Error: el numero de tener 8 dígitos");
+			System.out.println("Error: el numero solo debe tener 8 dígitos");
 			return false;
 		}
 		
